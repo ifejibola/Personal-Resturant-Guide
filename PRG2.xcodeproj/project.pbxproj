@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		B823EF042613822600B3ADBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B823EF032613822600B3ADBA /* AppDelegate.swift */; };
 		B823EF062613822600B3ADBA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B823EF052613822600B3ADBA /* SceneDelegate.swift */; };
-		B823EF082613822600B3ADBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B823EF072613822600B3ADBA /* ViewController.swift */; };
+		B823EF082613822600B3ADBA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B823EF072613822600B3ADBA /* HomeViewController.swift */; };
 		B823EF0B2613822600B3ADBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B823EF092613822600B3ADBA /* Main.storyboard */; };
 		B823EF0E2613822600B3ADBA /* PRG2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B823EF0C2613822600B3ADBA /* PRG2.xcdatamodeld */; };
 		B823EF102613822900B3ADBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B823EF0F2613822900B3ADBA /* Assets.xcassets */; };
 		B823EF132613822900B3ADBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B823EF112613822900B3ADBA /* LaunchScreen.storyboard */; };
 		B823EF1E2613822900B3ADBA /* PRG2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B823EF1D2613822900B3ADBA /* PRG2Tests.swift */; };
 		B823EF292613822900B3ADBA /* PRG2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B823EF282613822900B3ADBA /* PRG2UITests.swift */; };
+		B823EF442613B30D00B3ADBA /* ResturantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B823EF432613B30D00B3ADBA /* ResturantViewController.swift */; };
+		B823EF522614EBB000B3ADBA /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B823EF512614EBB000B3ADBA /* MenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,7 @@
 		B823EF002613822600B3ADBA /* PRG2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PRG2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B823EF032613822600B3ADBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B823EF052613822600B3ADBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B823EF072613822600B3ADBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B823EF072613822600B3ADBA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B823EF0A2613822600B3ADBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B823EF0D2613822600B3ADBA /* PRG2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PRG2.xcdatamodel; sourceTree = "<group>"; };
 		B823EF0F2613822900B3ADBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		B823EF242613822900B3ADBA /* PRG2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PRG2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B823EF282613822900B3ADBA /* PRG2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PRG2UITests.swift; sourceTree = "<group>"; };
 		B823EF2A2613822900B3ADBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B823EF432613B30D00B3ADBA /* ResturantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResturantViewController.swift; sourceTree = "<group>"; };
+		B823EF512614EBB000B3ADBA /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +107,14 @@
 			children = (
 				B823EF032613822600B3ADBA /* AppDelegate.swift */,
 				B823EF052613822600B3ADBA /* SceneDelegate.swift */,
-				B823EF072613822600B3ADBA /* ViewController.swift */,
+				B823EF072613822600B3ADBA /* HomeViewController.swift */,
 				B823EF092613822600B3ADBA /* Main.storyboard */,
 				B823EF0F2613822900B3ADBA /* Assets.xcassets */,
 				B823EF112613822900B3ADBA /* LaunchScreen.storyboard */,
 				B823EF142613822900B3ADBA /* Info.plist */,
 				B823EF0C2613822600B3ADBA /* PRG2.xcdatamodeld */,
+				B823EF432613B30D00B3ADBA /* ResturantViewController.swift */,
+				B823EF512614EBB000B3ADBA /* MenuViewController.swift */,
 			);
 			path = PRG2;
 			sourceTree = "<group>";
@@ -262,8 +268,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B823EF0E2613822600B3ADBA /* PRG2.xcdatamodeld in Sources */,
-				B823EF082613822600B3ADBA /* ViewController.swift in Sources */,
+				B823EF522614EBB000B3ADBA /* MenuViewController.swift in Sources */,
+				B823EF082613822600B3ADBA /* HomeViewController.swift in Sources */,
 				B823EF042613822600B3ADBA /* AppDelegate.swift in Sources */,
+				B823EF442613B30D00B3ADBA /* ResturantViewController.swift in Sources */,
 				B823EF062613822600B3ADBA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
